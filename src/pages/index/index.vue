@@ -13,7 +13,7 @@ import { ref } from 'vue';
 const title = ref('Hello');
 </script>
 
-<style>
+<style lang="scss">
 .content {
   display: flex;
   flex-direction: column;
@@ -33,10 +33,11 @@ const title = ref('Hello');
 .text-area {
   display: flex;
   justify-content: center;
-}
 
-.title {
-  font-size: 36rpx;
-  color: #8f8f94;
+  .title {
+    font-size: 36rpx;
+    color: #8f8f94;
+    background-color: #aaf;
+  }
 }
 </style>
