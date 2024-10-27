@@ -4,6 +4,8 @@ import { onHide, onLaunch, onShow } from '@dcloudio/uni-app';
 onLaunch(() => {
   // eslint-disable-next-line no-console
   console.log('App Launch');
+  // eslint-disable-next-line no-console, no-undef
+  console.log('Shaw platform DEFAULT');
 });
 onShow(() => {
   // eslint-disable-next-line no-console
@@ -11,7 +13,7 @@ onShow(() => {
 });
 onHide(() => {
   // eslint-disable-next-line no-console
-  console.log('App Hide');
+  console.log('App Hidee');
 });
 </script>
 <style></style>

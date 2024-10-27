@@ -1,3 +1,4 @@
+<!-- h5 -->
 <template>
   <view class="content">
     <image class="logo" src="/static/logo.png" />
@@ -10,7 +11,7 @@
 <script setup lang="ts">
 import { ref } from 'vue';
 
-const title = ref('Hello');
+const title = ref('Shaw H55566777');
 </script>
 
 <style lang="scss">
